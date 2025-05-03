@@ -3,112 +3,122 @@ using Microsoft.EntityFrameworkCore;
 using Proyecto_POO.Data;
 using Proyecto_POO.DTOs;
 using Proyecto_POO.Models;
+using Proyecto_POO.Repositories.Interfaces;
+using Proyecto_POO.Services.Interfaces;
 
 namespace Proyecto_POO.Services
 {
     public class PersonService : IPersonService
     {
-        private readonly ProjectDbContext _context;
+        private readonly IPersonRepository _personRepository;
         private readonly IPasswordHasher _passwordHasher;
         private readonly IMapper _mapper;
 
-        public PersonService(ProjectDbContext context, IPasswordHasher passwordHasher, IMapper mapper)
-        {
-            _context = context;
+        public PersonService(IPersonRepository personRepository, IPasswordHasher passwordHasher, IMapper mapper)
+        {   
+            _personRepository = personRepository;
             _passwordHasher = passwordHasher;
             _mapper = mapper;
         }
 
-        public (User user, string password) CrearPersona(PersonDTO personDTO)
+        public async Task<(User user, string password)> CrearPersona(PersonDTO personDTO)
         {
             var person = _mapper.Map<Person>(personDTO);
             person.CalcularEdades();
-            _context.Persons.Add(person);
-            _context.SaveChanges();
+            await _personRepository.AddPersonAsync(person);
+            await _personRepository.SaveChangesAsync();
 
             var (user, password) = GenerarUsuario(person);
             person.User = user;
-            _context.SaveChanges();
+            await _personRepository.SaveChangesAsync();
 
             return (user, password);
         }
 
-        public IEnumerable<PersonDTO> ObtenerTodasLasPersonas()
+        public async Task<IEnumerable<PersonDTO>> ObtenerTodasLasPersonas()
         {
-            var persons = _context.Persons.Include(p => p.User).ToList();
+            var persons = await _personRepository.GetAllPersonsAsync();
             return _mapper.Map<IEnumerable<PersonDTO>>(persons);
         }
 
-        public PersonDTO? PersonaPorID(int id)
+        public async Task<PersonDTO?> PersonaPorID(int id)
         {
-            var person = _context.Persons.Include(p => p.User).FirstOrDefault(p => p.Id == id);
+            var person = await _personRepository.GetPersonByIdAsync(id);
             return person != null ? _mapper.Map<PersonDTO>(person) : null;
         }
 
-        public PersonDTO? PersonaPorIdentificacion(string identificacion)
+        public async Task<PersonDTO?> PersonaPorIdentificacion(string identificacion)
         {
-            var person = _context.Persons.Include(_p => _p.User).FirstOrDefault(p => p.Identificacion == identificacion);
+            var person = await _personRepository.GetPersonByIdentification(identificacion);
             return person != null ? _mapper.Map<PersonDTO?>(person) : null;
             //return _context.Persons.Include(p => p.User)
             //    .FirstOrDefault(p => p.Identificacion == identificacion);
         }
 
-        public IEnumerable<PersonDTO> PersonaPorEdad(int edad)
+        public async Task<IEnumerable<PersonDTO>> PersonaPorEdad(int edad)
         {
-            var persons = _context.Persons.Include(p => p.User).Where(p => p.Fechanacimiento.HasValue && (DateTime.Now.Year - p.Fechanacimiento.Value.Year) == edad).ToList();
+            var persons = await _personRepository.GetPersonByAge(edad);
             return _mapper.Map<IEnumerable<PersonDTO>>(persons);
             //return _context.Persons.Include (_p => _p.User).Where(p => p.Fechanacimiento.HasValue && (DateTime.Now.Year - p.Fechanacimiento.Value.Year) == edad)
             //    .ToList();
         }
 
-        public IEnumerable<PersonDTO> PersonaPorPNombre(string Pnombre)
+        public async Task<IEnumerable<PersonDTO>> PersonaPorPNombre(string Pnombre)
         {
-            var persons = _context.Persons.Include(p => p.User).Where(p => p.Pnombre.Contains(Pnombre)).ToList();
+            var persons = await _personRepository.GetPersonByPname(Pnombre);
             return _mapper.Map<IEnumerable<PersonDTO>>(persons);
         }
 
-        public IEnumerable<PersonDTO> PersonaPorApellido(string PApellido)
+        public async Task<IEnumerable<PersonDTO>> PersonaPorApellido(string PApellido)
         {
-            var persons = _context.Persons.Include(p => p.User).Where(p => p.Papellido.Contains(PApellido)).ToList();
+            var persons = _personRepository.GetPersonByPname(PApellido);
             return _mapper.Map<IEnumerable<PersonDTO>>(persons);
             //return _context.Persons.Include(p => p.User).Where(p => p.Papellido.Contains(PApellido))
             //    .ToList();
         }
 
-        public bool ActualizarPersona(Person person)
+        public async Task<bool> ActualizarPersona(Person person)
         {
-            _context.Persons.Update(person);
-            return _context.SaveChanges() > 0;
+            return await _personRepository.UpdatePersonAsync(person);
+            
         }
 
-        public bool EliminarPersona(int id)
+        public async Task<bool> EliminarPersona(int id)
         {
-            var person = _context.Persons.Find(id);
-            if (person == null) return false;
-            _context.Persons.Remove(person);
-            return _context.SaveChanges() > 0;
+            return await _personRepository.DeletePersonAsync(id);
         }
 
-        public bool CambiarPassword(int personaid, string newPasswrod)
+        public async Task<bool> CambiarPassword(int personaid, string newPasswrod)
         {
-            var user = _context.Users.FirstOrDefault(u => u.Idpersona == personaid);
+            var user = await _personRepository.GetUserByPerson(personaid);
             if (user == null) return false;
             user.Password = _passwordHasher.HashPassword(newPasswrod);
-            return _context.SaveChanges() > 0;
+            return await _personRepository.UpdatUserAsync(user);
         }
 
-        public UserDTO GetUserDetails(int personid)
+        public async Task<UserDTO> GetUserDetails(int personid)
         {
-            var user = _context.Users.Where(u => u.Idpersona == personid).FirstOrDefault();
+            var user = await _personRepository.GetUserByPerson(personid);
             return _mapper.Map<UserDTO>(user);
 
         }
 
+        public async Task<IEnumerable<UserDTO>> GetAllUsers()
+        {
+            var user = await _personRepository.GetAllUsersAsync();
+            return _mapper.Map<IEnumerable<UserDTO>>(user);
+
+        }
 
 
         public string GenerarLogin(Person person)
         {
-            return $"{person.Pnombre}{person.Papellido[0]}{person.Id}";
+            if(person == null)
+                throw new ArgumentNullException(nameof(person));
+            if (string.IsNullOrEmpty(person.Pnombre)) throw new ArgumentException("El nombre no puede estar vacio", nameof(person.Pnombre));
+            if (string.IsNullOrEmpty(person.Papellido)) throw new ArgumentException("El apellido no puede estar vacio", nameof(person.Papellido));
+            string login = $"{person.Pnombre}{person.Papellido[0]}{person.Id}";
+            return (login);
         }
 
         public string GenerarPassword()

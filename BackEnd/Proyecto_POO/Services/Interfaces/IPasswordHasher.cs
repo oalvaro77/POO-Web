@@ -1,4 +1,4 @@
-﻿namespace Proyecto_POO.Services
+﻿namespace Proyecto_POO.Services.Interfaces
 {
     public interface IPasswordHasher
     {

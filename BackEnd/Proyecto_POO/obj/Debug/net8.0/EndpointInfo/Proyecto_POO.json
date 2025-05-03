@@ -315,10 +315,45 @@
         }
       }
     },
+    "/api/Persona/Users": {
+      "get": {
+        "tags": [
+          "Persona"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Ubicaciones/Actuales": {
       "get": {
         "tags": [
           "Ubicaciones"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Ubicaciones/Actuales/{personaID}": {
+      "get": {
+        "tags": [
+          "Ubicaciones"
+        ],
+        "parameters": [
+          {
+            "name": "personaID",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
         ],
         "responses": {
           "200": {

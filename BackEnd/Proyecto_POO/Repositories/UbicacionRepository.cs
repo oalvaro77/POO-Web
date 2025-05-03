@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Proyecto_POO.Data;
 using Proyecto_POO.Models;
+using Proyecto_POO.Repositories.Interfaces;
 
 namespace Proyecto_POO.Repositories;
 
@@ -28,6 +29,7 @@ public class UbicacionRepository : IUbicacionRepository
             .OrderByDescending(u => u.Fecha)
             .ToListAsync();
 
+
     }
 
     public async Task AddAsync(Ubicacion newUbicacion)
@@ -35,4 +37,11 @@ public class UbicacionRepository : IUbicacionRepository
         _dbContext.Ubicaciones.Add(newUbicacion);
         await _dbContext.SaveChangesAsync();
     }
+
+    public async Task SaveChangesAsync()
+    {
+        await _dbContext.SaveChangesAsync();
+    }
+
+    
 }

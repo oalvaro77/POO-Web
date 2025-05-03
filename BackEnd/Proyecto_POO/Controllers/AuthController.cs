@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Proyecto_POO.DTOs;
 using Proyecto_POO.Models;
-using Proyecto_POO.Services;
+using Proyecto_POO.Services.Interfaces;
 
 namespace Proyecto_POO.Controllers;
 

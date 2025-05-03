@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Proyecto_POO.DTOs;
 using Proyecto_POO.Models;
-using Proyecto_POO.Services;
+using Proyecto_POO.Services.Interfaces;
 
 namespace Proyecto_POO.Controllers
 {
@@ -19,9 +19,9 @@ namespace Proyecto_POO.Controllers
 
         
         [HttpPost]
-        public IActionResult CrearPersona([FromBody] PersonDTO person)
+        public async Task<IActionResult> CrearPersona([FromBody] PersonDTO person)
         {
-            var (user, password) = _personService.CrearPersona(person);
+            var (user, password) =await  _personService.CrearPersona(person);
             return Ok(new
             {
                 mensaje = "Persona creada exitosamente",
@@ -38,9 +38,9 @@ namespace Proyecto_POO.Controllers
         }
         
         [HttpGet]
-        public IActionResult ObtenerPersonas()
+        public async Task<IActionResult> ObtenerPersonas()
         {
-            var persons = _personService.ObtenerTodasLasPersonas();
+            var persons = await _personService.ObtenerTodasLasPersonas();
             return Ok(persons);
         }
 
@@ -93,36 +93,43 @@ namespace Proyecto_POO.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult ActualizarPersona(int id, [FromBody] Person person)
+        public async Task< IActionResult> ActualizarPersona(int id, [FromBody] Person person)
         {
             if (id != person.Id) return BadRequest();
 
-            var result = _personService.ActualizarPersona(person);
+            var result = await _personService.ActualizarPersona(person);
             return result ? Ok(person) : NotFound();
         }
 
         [HttpDelete("{id}")]
-        public IActionResult BorrarPersona(int id)
+        public async Task<IActionResult> BorrarPersona(int id)
         {
-            var result = _personService.EliminarPersona(id);
+            var result = await _personService.EliminarPersona(id);
             return result ? Ok("Eliminada exitosamente") : NotFound("Persona no encontrada");
         }
 
         [HttpPost("change-password/{id}")]
-        public  IActionResult CambiarPassword(int id, [FromBody] string newPassword)
+        public  async Task<IActionResult> CambiarPassword(int id, [FromBody] string newPassword)
         {
-            var result =  _personService.CambiarPassword(id, newPassword);
-            return result? Ok("Pasaporte cambiado"): NotFound();
+            var result = await _personService.CambiarPassword(id, newPassword);
+            return result? Ok("Password cambiado"): NotFound();
         }
         
-        [HttpGet("User-details/{id}"), Authorize]
-        public IActionResult GetUserDetails(int id)
+        [HttpGet("User-details/{id}")]
+        public async Task<IActionResult> GetUserDetails(int id)
         {
-            var user = _personService.GetUserDetails(id);
+            var user = await _personService.GetUserDetails(id);
           
             return user == null ? NotFound("Usuario no encontrado") : Ok(user);
         }
 
+        [HttpGet("Users")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            var users = await _personService.GetAllUsers();
+
+            return Ok(users);
+        }
 
     }
 }

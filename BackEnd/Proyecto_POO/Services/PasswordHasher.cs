@@ -1,4 +1,5 @@
 ﻿using Konscious.Security.Cryptography;
+using Proyecto_POO.Services.Interfaces;
 using System.Security.Cryptography;
 using System.Text;
 

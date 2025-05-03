@@ -3,60 +3,120 @@
   "WorkspaceRootPath": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\ubicacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\ubicacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\repositories\\interfaces\\iubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\repositories\\interfaces\\iubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\controllers\\ubicacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\controllers\\ubicacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\geocodingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\geocodingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\icodingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\icodingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\ubicacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\ubicacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\ubicacionactualdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\ubicacionactualdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\repositories\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\repositories\\personrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\repositories\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\repositories\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\repositories\\ubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\repositories\\ubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\models\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\models\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\interfaces\\iubicacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\interfaces\\iubicacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\repositories\\interfaces\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\repositories\\interfaces\\ipersonrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\ubicacionesrequesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\ubicacionesrequesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\personservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\interfaces\\ipersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\interfaces\\ipersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\ubicacionmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\ubicacionmonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\repositories\\iubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\repositories\\iubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\repositories\\ubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\repositories\\ubicacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\models\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\models\\ubicacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\ubicaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\ubicaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\geocodingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\geocodingservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\interfaces\\icodingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\interfaces\\icodingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,64 +127,8 @@
       "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\usuarioregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\usuarioregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\ubicacionesrequesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\ubicacionesrequesdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\dtos\\persondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\data\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\mappings\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\controllers\\personacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\iubicacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\iubicacionservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\ipersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\ipersonservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\services\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|solutionrelative:proyecto_poo\\services\\interfaces\\ipasswordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7E0F3793-ACE1-499D-9CCE-3060A8E39AE3}|Proyecto_POO\\Proyecto_POO.csproj|c:\\users\\oalej\\code\\csharpprojects\\web api\\proyecto_poo\\backend\\proyecto_poo\\migrations\\20250501032948_addtablecoords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -138,7 +142,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -146,7 +150,241 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UbicacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\UbicacionRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Repositories\\UbicacionRepository.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\UbicacionRepository.cs",
+              "RelativeToolTip": "Proyecto_POO\\Repositories\\UbicacionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T16:16:26.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UbicacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\UbicacionesController.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Controllers\\UbicacionesController.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\UbicacionesController.cs",
+              "RelativeToolTip": "Proyecto_POO\\Controllers\\UbicacionesController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T03:33:50.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Proyecto_POO\\Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T04:45:38.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUbicacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\Interfaces\\IUbicacionRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Repositories\\Interfaces\\IUbicacionRepository.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\Interfaces\\IUbicacionRepository.cs",
+              "RelativeToolTip": "Proyecto_POO\\Repositories\\Interfaces\\IUbicacionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T15:37:40.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UbicacionServices.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\UbicacionServices.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\UbicacionServices.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\UbicacionServices.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\UbicacionServices.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAiwGMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T03:48:08.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\PersonRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Repositories\\PersonRepository.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\PersonRepository.cs",
+              "RelativeToolTip": "Proyecto_POO\\Repositories\\PersonRepository.cs",
+              "ViewState": "AgIAAGcAAAAAAAAAAADwv3YAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:57:46.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUbicacionServices.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\IUbicacionServices.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\Interfaces\\IUbicacionServices.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\IUbicacionServices.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\Interfaces\\IUbicacionServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T03:45:57.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UbicacionActualDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UbicacionActualDTO.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\UbicacionActualDTO.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UbicacionActualDTO.cs",
+              "RelativeToolTip": "Proyecto_POO\\DTOs\\UbicacionActualDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:12:35.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IPersonRepository.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\Interfaces\\IPersonRepository.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Repositories\\Interfaces\\IPersonRepository.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\Interfaces\\IPersonRepository.cs",
+              "RelativeToolTip": "Proyecto_POO\\Repositories\\Interfaces\\IPersonRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T15:34:57.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "PersonaController.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\PersonaController.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Controllers\\PersonaController.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\PersonaController.cs",
+              "RelativeToolTip": "Proyecto_POO\\Controllers\\PersonaController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwHgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T21:44:20.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UbicacionesRequesDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UbicacionesRequesDTO.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\UbicacionesRequesDTO.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UbicacionesRequesDTO.cs",
+              "RelativeToolTip": "Proyecto_POO\\DTOs\\UbicacionesRequesDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:00:47.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "Proyecto_POO\\DTOs\\UserDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T18:54:06.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Models\\User.cs",
+              "RelativeToolTip": "Proyecto_POO\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T17:09:05.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IPersonService.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\IPersonService.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\Interfaces\\IPersonService.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\IPersonService.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\Interfaces\\IPersonService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA7wBYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:58:22.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PersonService.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\PersonService.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\PersonService.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\PersonService.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\PersonService.cs",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAywJMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:58:25.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UbicacionMonitorService.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\UbicacionMonitorService.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\UbicacionMonitorService.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\UbicacionMonitorService.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\UbicacionMonitorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T18:30:46.523Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PersonDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\PersonDTO.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\PersonDTO.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\PersonDTO.cs",
+              "RelativeToolTip": "Proyecto_POO\\DTOs\\PersonDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T04:56:07.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Mappings\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Mappings\\AutoMapperProfile.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Mappings\\AutoMapperProfile.cs",
+              "RelativeToolTip": "Proyecto_POO\\Mappings\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T17:55:46.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "Ubicacion.cs",
               "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Models\\Ubicacion.cs",
               "RelativeDocumentMoniker": "Proyecto_POO\\Models\\Ubicacion.cs",
@@ -154,168 +392,138 @@
               "RelativeToolTip": "Proyecto_POO\\Models\\Ubicacion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T15:42:46.501Z"
+              "WhenOpened": "2025-05-02T15:42:46.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UbicacionesController.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\UbicacionesController.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Controllers\\UbicacionesController.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\UbicacionesController.cs",
-              "RelativeToolTip": "Proyecto_POO\\Controllers\\UbicacionesController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Models\\Person.cs",
+              "RelativeToolTip": "Proyecto_POO\\Models\\Person.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAADwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T03:33:50.659Z"
+              "WhenOpened": "2025-05-01T00:47:21.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 19,
+              "Title": "ProjectDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Data\\ProjectDbContext.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Data\\ProjectDbContext.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Data\\ProjectDbContext.cs",
+              "RelativeToolTip": "Proyecto_POO\\Data\\ProjectDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA7wBQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T00:50:06.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UbicacionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UbicacionDTO.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\UbicacionDTO.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UbicacionDTO.cs",
+              "RelativeToolTip": "Proyecto_POO\\DTOs\\UbicacionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T16:17:01.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\appsettings.json",
+              "RelativeDocumentMoniker": "Proyecto_POO\\appsettings.json",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\appsettings.json",
+              "RelativeToolTip": "Proyecto_POO\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T04:16:56.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Proyecto_POO\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAvwCAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T21:44:20.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "GeocodingServices.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\GeocodingServices.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\GeocodingServices.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\GeocodingServices.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\GeocodingServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-30T22:57:44.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:58:27.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\AuthService.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:58:28.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\PasswordHasher.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\PasswordHasher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-11T17:58:24.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "ICodingService.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\ICodingService.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\ICodingService.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\ICodingService.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\ICodingService.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\ICodingService.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\Interfaces\\ICodingService.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\ICodingService.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\Interfaces\\ICodingService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T00:29:13.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IPersonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\IPersonRepository.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Repositories\\IPersonRepository.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\IPersonRepository.cs",
-              "RelativeToolTip": "Proyecto_POO\\Repositories\\IPersonRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T15:34:57.245Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "PersonRepository.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\PersonRepository.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Repositories\\PersonRepository.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\PersonRepository.cs",
-              "RelativeToolTip": "Proyecto_POO\\Repositories\\PersonRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T15:39:53.15Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GeocodingServices.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\GeocodingServices.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\GeocodingServices.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\GeocodingServices.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\GeocodingServices.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T22:57:44.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\appsettings.json",
-              "RelativeDocumentMoniker": "Proyecto_POO\\appsettings.json",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\appsettings.json",
-              "RelativeToolTip": "Proyecto_POO\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-02T04:16:56.573Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PersonService.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\PersonService.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\PersonService.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\PersonService.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\PersonService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAIA0wCIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:58:25.072Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Program.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Program.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Program.cs",
-              "RelativeToolTip": "Proyecto_POO\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:58:01.543Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UbicacionServices.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\UbicacionServices.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\UbicacionServices.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\UbicacionServices.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\UbicacionServices.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAowCYAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T03:48:08.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UbicacionMonitorService.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\UbicacionMonitorService.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\UbicacionMonitorService.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\UbicacionMonitorService.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\UbicacionMonitorService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwDYAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:31:06.161Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUbicacionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\IUbicacionRepository.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Repositories\\IUbicacionRepository.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\IUbicacionRepository.cs",
-              "RelativeToolTip": "Proyecto_POO\\Repositories\\IUbicacionRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T15:37:40.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UbicacionRepository.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\UbicacionRepository.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Repositories\\UbicacionRepository.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Repositories\\UbicacionRepository.cs",
-              "RelativeToolTip": "Proyecto_POO\\Repositories\\UbicacionRepository.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA4wCMAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:16:26.693Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Person.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Models\\Person.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Models\\Person.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Models\\Person.cs",
-              "RelativeToolTip": "Proyecto_POO\\Models\\Person.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:47:21.112Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\LoginDTO.cs",
@@ -327,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 30,
               "Title": "AuthResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\AuthResponseDTO.cs",
               "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\AuthResponseDTO.cs",
@@ -339,163 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UsuarioRegisterDTO.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UsuarioRegisterDTO.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\UsuarioRegisterDTO.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UsuarioRegisterDTO.cs",
-              "RelativeToolTip": "Proyecto_POO\\DTOs\\UsuarioRegisterDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:09:54.328Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UserDTO.cs",
-              "RelativeToolTip": "Proyecto_POO\\DTOs\\UserDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T16:09:52.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProjectDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Data\\ProjectDbContext.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Data\\ProjectDbContext.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Data\\ProjectDbContext.cs",
-              "RelativeToolTip": "Proyecto_POO\\Data\\ProjectDbContext.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAuwAcAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T00:50:06.411Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AutoMapperProfile.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Mappings\\AutoMapperProfile.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Mappings\\AutoMapperProfile.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Mappings\\AutoMapperProfile.cs",
-              "RelativeToolTip": "Proyecto_POO\\Mappings\\AutoMapperProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T04:06:40.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PersonaController.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\PersonaController.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Controllers\\PersonaController.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\PersonaController.cs",
-              "RelativeToolTip": "Proyecto_POO\\Controllers\\PersonaController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T21:44:20.846Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "PersonDTO.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\PersonDTO.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\PersonDTO.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\PersonDTO.cs",
-              "RelativeToolTip": "Proyecto_POO\\DTOs\\PersonDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T04:56:07.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "UbicacionesRequesDTO.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UbicacionesRequesDTO.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\DTOs\\UbicacionesRequesDTO.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\DTOs\\UbicacionesRequesDTO.cs",
-              "RelativeToolTip": "Proyecto_POO\\DTOs\\UbicacionesRequesDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T03:32:03.956Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Models\\User.cs",
-              "RelativeToolTip": "Proyecto_POO\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T17:09:05.284Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IUbicacionServices.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\IUbicacionServices.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\IUbicacionServices.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\IUbicacionServices.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\IUbicacionServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAByAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T03:45:57.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\AuthService.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\AuthService.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAvwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:58:28.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "IPersonService.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\IPersonService.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\IPersonService.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\IPersonService.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\IPersonService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:58:22.594Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\IAuthService.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:58:27.717Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Proyecto_POO\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAvwCAAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T21:44:20.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "20250501032948_AddTableCoords.cs",
               "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Migrations\\20250501032948_AddTableCoords.cs",
               "RelativeDocumentMoniker": "Proyecto_POO\\Migrations\\20250501032948_AddTableCoords.cs",
@@ -507,27 +559,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "IPasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\IPasswordHasher.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\IPasswordHasher.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\IPasswordHasher.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\IPasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\IPasswordHasher.cs",
+              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\Interfaces\\IPasswordHasher.cs",
+              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\Interfaces\\IPasswordHasher.cs",
+              "RelativeToolTip": "Proyecto_POO\\Services\\Interfaces\\IPasswordHasher.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-11T17:58:26.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "PasswordHasher.cs",
-              "DocumentMoniker": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\PasswordHasher.cs",
-              "RelativeDocumentMoniker": "Proyecto_POO\\Services\\PasswordHasher.cs",
-              "ToolTip": "C:\\Users\\oalej\\Code\\CsharpProjects\\Web API\\Proyecto_POO\\BackEnd\\Proyecto_POO\\Services\\PasswordHasher.cs",
-              "RelativeToolTip": "Proyecto_POO\\Services\\PasswordHasher.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T17:58:24.077Z"
             }
           ]
         }
