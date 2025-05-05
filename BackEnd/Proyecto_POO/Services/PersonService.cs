@@ -26,7 +26,7 @@ namespace Proyecto_POO.Services
             var person = _mapper.Map<Person>(personDTO);
             person.CalcularEdades();
             await _personRepository.AddPersonAsync(person);
-            await _personRepository.SaveChangesAsync();
+            
 
             var (user, password) = GenerarUsuario(person);
             person.User = user;
@@ -55,10 +55,10 @@ namespace Proyecto_POO.Services
             //    .FirstOrDefault(p => p.Identificacion == identificacion);
         }
 
-        public async Task<IEnumerable<PersonDTO>> PersonaPorEdad(int edad)
+        public async Task<List<PersonDTO>> PersonaPorEdad(int edad)
         {
             var persons = await _personRepository.GetPersonByAge(edad);
-            return _mapper.Map<IEnumerable<PersonDTO>>(persons);
+            return _mapper.Map<List<PersonDTO>>(persons);
             //return _context.Persons.Include (_p => _p.User).Where(p => p.Fechanacimiento.HasValue && (DateTime.Now.Year - p.Fechanacimiento.Value.Year) == edad)
             //    .ToList();
         }
@@ -71,7 +71,7 @@ namespace Proyecto_POO.Services
 
         public async Task<IEnumerable<PersonDTO>> PersonaPorApellido(string PApellido)
         {
-            var persons = _personRepository.GetPersonByPname(PApellido);
+            var persons = await _personRepository.GetPersonByPApellido(PApellido);
             return _mapper.Map<IEnumerable<PersonDTO>>(persons);
             //return _context.Persons.Include(p => p.User).Where(p => p.Papellido.Contains(PApellido))
             //    .ToList();

@@ -10,7 +10,7 @@ namespace Proyecto_POO.Services.Interfaces
 
         Task<PersonDTO?> PersonaPorID(int id);
         Task<PersonDTO?> PersonaPorIdentificacion(string identificacion);
-        Task<IEnumerable<PersonDTO>> PersonaPorEdad(int edad);
+        Task<List<PersonDTO>> PersonaPorEdad(int edad);
         Task<IEnumerable<PersonDTO>> PersonaPorPNombre(string Pnombre);
         Task<IEnumerable<PersonDTO>> PersonaPorApellido(string PApellido);
 

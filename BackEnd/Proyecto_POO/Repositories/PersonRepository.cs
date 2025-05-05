@@ -50,7 +50,7 @@ public class PersonRepository : IPersonRepository
     public async Task<List<Person>> GetPersonByAge(int age)
     {
         return await _projectDbContext.Persons
-            .Include(p => p.User)
+            
             .Where(p => p.Fechanacimiento.HasValue && (DateTime.UtcNow.Year - p.Fechanacimiento.Value.Year) == age)
             .ToListAsync();
     }
@@ -58,7 +58,7 @@ public class PersonRepository : IPersonRepository
     public async Task<List<Person>> GetPersonByPname(string pNombre)
     {
         return await _projectDbContext.Persons
-            .Include(p => p.User)
+            
             .Where(p => p.Pnombre.Contains(pNombre))
             .ToListAsync();
         
@@ -67,7 +67,7 @@ public class PersonRepository : IPersonRepository
     public async Task<List<Person>> GetPersonByPApellido(string pApellido)
     {
         return await _projectDbContext.Persons
-            .Include(p => p.User)
+            
             .Where(p => p.Papellido.Contains(pApellido))
             .ToListAsync();
     }

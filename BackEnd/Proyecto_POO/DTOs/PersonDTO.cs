@@ -2,7 +2,7 @@
 
 public class PersonDTO
 {
-    public int Id { get; set; }
+    
     public string Identificacion { get; set; } = string.Empty;
     public string Pnombre { get; set; } = string.Empty;
     public string Snombre { get; set; } = string.Empty;

@@ -45,9 +45,9 @@ namespace Proyecto_POO.Controllers
         }
 
         [HttpGet("{id}"), Authorize]
-        public IActionResult ObtenerPersona(int id)
+        public async Task<IActionResult> ObtenerPersona(int id)
         {
-            var person = _personService.PersonaPorID(id);
+            var person = await _personService.PersonaPorID(id);
             if (person == null)
             {
                 return NotFound("No encontrado");
@@ -56,9 +56,9 @@ namespace Proyecto_POO.Controllers
         }
 
         [HttpGet("by-identication/{identifacion}")]
-        public IActionResult ObtenerPorIdentificacion(string identifacion)
+        public async Task<IActionResult> ObtenerPorIdentificacion(string identifacion)
         {
-            var person = _personService.PersonaPorIdentificacion(identifacion);
+            var person = await _personService.PersonaPorIdentificacion(identifacion);
             if (person == null)
             {
                 return NotFound("Persona no encontrada");
@@ -69,26 +69,26 @@ namespace Proyecto_POO.Controllers
         }
 
         [HttpGet("by-age/{edad}")]
-        public IActionResult ObtenerPorEdad(int edad)
+        public async Task<IActionResult> ObtenerPorEdad(int edad)
         {
-            var persons = _personService.PersonaPorEdad(edad);
+            var persons = await _personService.PersonaPorEdad(edad);
             if (persons == null) return NotFound("Persona no encontrada");
             return Ok(persons);
         }
 
         [HttpGet("by-FName/{nombre}")]
-        public IActionResult ObtenerPorNombre(string nombre)
+        public async Task<IActionResult> ObtenerPorNombre(string nombre)
         {
-            var persons = _personService.PersonaPorPNombre(nombre);
-            if (persons == null) return NotFound("Persona no encontrada");
+            var persons = await _personService.PersonaPorPNombre(nombre);
+            if (persons == null || !persons.Any()) return NotFound("Persona no encontrada");
             return Ok(persons);
         }
 
         [HttpGet("by-FLast/{apellido}")]
-        public IActionResult obtenerPorApellido(string apellido)
+        public async Task<IActionResult> obtenerPorApellido(string apellido)
         {
-            var persons = _personService.PersonaPorApellido(apellido);
-            if (persons == null) return NotFound("Persona no encontrada");
+            var persons = await _personService.PersonaPorApellido(apellido);
+            if (persons == null || !persons.Any()) return NotFound("Persona no encontrada");
             return Ok(persons);
         }
 
