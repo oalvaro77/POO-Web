@@ -16,6 +16,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Proyecto_POO.Controllers.AuthController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Auth/refresh",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenDTO",
+        "Type": "Proyecto_POO.DTOs.RefreshTokenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Proyecto_POO.Controllers.PersonaController",
     "Method": "CrearPersona",
     "RelativePath": "api/Persona",
@@ -196,6 +212,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Proyecto_POO.Controllers.PersonaController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/Persona/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Proyecto_POO.Controllers.UbicacionesController",
     "Method": "AddUbicacion",
     "RelativePath": "api/Ubicaciones",
@@ -219,6 +245,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Proyecto_POO.Controllers.UbicacionesController",
+    "Method": "GetUbicacionActualById",
+    "RelativePath": "api/Ubicaciones/Actuales/{personaID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personaID",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

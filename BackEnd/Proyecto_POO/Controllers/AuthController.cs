@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Proyecto_POO.DTOs;
 using Proyecto_POO.Models;
-using Proyecto_POO.Services;
+using Proyecto_POO.Services.Interfaces;
 
 namespace Proyecto_POO.Controllers;
 
@@ -10,17 +10,17 @@ namespace Proyecto_POO.Controllers;
 public class AuthController : ControllerBase
 {
     private readonly IAuthService _authService;
-   
+
     public AuthController(IAuthService authService)
     {
         _authService = authService;
-   
+
     }
 
 
 
     [HttpPost("login")]
-    public ActionResult Login([FromBody] LoginDTO login)
+    public async Task<IActionResult> Login([FromBody] LoginDTO login)
     {
         var apiKey = Request.Headers["X-Api-Key"].FirstOrDefault();
 
@@ -28,12 +28,25 @@ public class AuthController : ControllerBase
 
         if (string.IsNullOrEmpty(apiKey))
         {
-            return Unauthorized();
+            return Unauthorized("Api key is requiered");
         }
-        var token = _authService.Login(login.Login, login.Password, apiKey);
+        var (accessToken, refreshToken) = await _authService.Login(login.Login, login.Password, apiKey);
 
-        if (token == null) return Unauthorized("Credenciales invalidas");
+        if (accessToken == null || refreshToken == null) return Unauthorized("Invalid Credentials");
 
-        return Ok(new { token });
+        return Ok(new { accessToken, refreshToken });
+    }
+
+    [HttpPost("refresh")]
+    public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenDTO refreshTokenDTO)
+    {
+        if (string.IsNullOrEmpty(refreshTokenDTO.RefreshToken))
+        {
+            return BadRequest("Requiered Refresh Token");
+        }
+
+        var (accessToken, refreshToken) = await _authService.RefreshToken(refreshTokenDTO.RefreshToken);
+        if (accessToken == null || refreshToken == null) return Unauthorized("Expired or invalid refresh Token");
+        return Ok(new { accessToken, refreshToken });
     }
 }

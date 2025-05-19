@@ -2,6 +2,7 @@
 
 public class UserDTO
 {
+    public int idPersona { get; set; }
     public string Login { get; set; }
-    public string ApiKey { get; set; }  
+     
 }

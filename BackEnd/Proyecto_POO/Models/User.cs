@@ -1,4 +1,4 @@
-﻿using System.Text.Json.Serialization;
+﻿ using System.Text.Json.Serialization;
 
 namespace Proyecto_POO.Models
 {
@@ -11,6 +11,9 @@ namespace Proyecto_POO.Models
         public string ApiKey {  get; set; } = string.Empty ;
         [JsonIgnore]
         public  Person Person { get; set; }
+
+        public IEnumerable<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken> ();
+
 
     }
 }

@@ -72,6 +72,34 @@ namespace Proyecto_POO.Migrations
                     b.ToTable("Persons");
                 });
 
+            modelBuilder.Entity("Proyecto_POO.Models.RefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Expires")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsRevoked")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("RefreshTokens");
+                });
+
             modelBuilder.Entity("Proyecto_POO.Models.Ubicacion", b =>
                 {
                     b.Property<int>("Id")
@@ -125,6 +153,17 @@ namespace Proyecto_POO.Migrations
                     b.ToTable("Users");
                 });
 
+            modelBuilder.Entity("Proyecto_POO.Models.RefreshToken", b =>
+                {
+                    b.HasOne("Proyecto_POO.Models.User", "User")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Proyecto_POO.Models.Ubicacion", b =>
                 {
                     b.HasOne("Proyecto_POO.Models.Person", "Person")
@@ -152,6 +191,11 @@ namespace Proyecto_POO.Migrations
                     b.Navigation("Ubicacions");
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Proyecto_POO.Models.User", b =>
+                {
+                    b.Navigation("RefreshTokens");
                 });
 #pragma warning restore 612, 618
         }

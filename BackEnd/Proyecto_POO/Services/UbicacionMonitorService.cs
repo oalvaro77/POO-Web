@@ -1,16 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore;
-using Proyecto_POO.Data;
-using Proyecto_POO.Models;
+﻿using Proyecto_POO.Models;
+using Proyecto_POO.Repositories.Interfaces;
+using Proyecto_POO.Services.Interfaces;
 
 namespace Proyecto_POO.Services;
 
 public class UbicacionMonitorService : BackgroundService
 {
     private readonly IServiceProvider _serviceProvider;
+    private readonly ILogger<UbicacionMonitorService> _logger;
 
-    public UbicacionMonitorService(IServiceProvider serviceProvider)
+    public UbicacionMonitorService(IServiceProvider serviceProvider, ILogger<UbicacionMonitorService> logger)
     {
         _serviceProvider = serviceProvider;
+        _logger = logger;
     }
 
     protected override async Task ExecuteAsync(CancellationToken stoppingToken)
@@ -18,18 +20,15 @@ public class UbicacionMonitorService : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             using var scope = _serviceProvider.CreateScope();
-            var context = scope.ServiceProvider.GetRequiredService<ProjectDbContext>();
+            var ubicacionRepository = scope.ServiceProvider.GetRequiredService<IUbicacionRepository>();
+            var personRepository = scope.ServiceProvider.GetRequiredService<IPersonRepository>();
             var geocoding = scope.ServiceProvider.GetRequiredService<IGeocodingService>();
 
-            var personas = await context.Persons
-                .Include(p => p.Ubicacions)
-                .ToListAsync(stoppingToken);
+            var personas = await personRepository.GetAllPersonsAsync();
 
             foreach (var person in personas)
             {
-                var ultimaUbicacion = person.Ubicacions
-                    .OrderByDescending(u => u.Fecha)
-                    .FirstOrDefault();
+                var ultimaUbicacion = await ubicacionRepository.GetLatestByPersonIdAsync(person.Id);
 
                 if (ultimaUbicacion == null) continue;
                 try
@@ -46,20 +45,21 @@ public class UbicacionMonitorService : BackgroundService
 
                     };
 
-                    context.Ubicaciones.Add(nuevaUbicacion);
+                    await ubicacionRepository.AddAsync(nuevaUbicacion);
+
                 }
                 catch (Exception ex)
                 {
                     {
-                        Console.WriteLine($"Error obteniendo coordenadas para {person.Pnombre}: {ex.Message}");
+                        _logger.LogError(ex, $"No se actualizo la ubicacion de {person.Pnombre} (ID:{person.Id}), coordenadas sin cambios");
                     }
 
                 }
 
-                await context.SaveChangesAsync();
-                await Task.Delay(TimeSpan.FromMinutes(3), stoppingToken);
+                
             }
+            await ubicacionRepository.SaveChangesAsync();
+            await Task.Delay(TimeSpan.FromMinutes(3), stoppingToken);
         }
     }
 }
-    
