@@ -353,10 +353,13 @@ C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj
 C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Proyecto_POO.props
 C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Proyecto_POO.props
 C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\Proyecto.557DE8B2.Up2Date
 C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\Proyecto_POO.dll
 C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\refint\Proyecto_POO.dll
 C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\Proyecto_POO.pdb
 C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\Proyecto_POO.genruntimeconfig.cache
 C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\obj\Debug\net8.0\ref\Proyecto_POO.dll
+C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\oalej\Code\CsharpProjects\Web API\Proyecto_POO\BackEnd\Proyecto_POO\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll

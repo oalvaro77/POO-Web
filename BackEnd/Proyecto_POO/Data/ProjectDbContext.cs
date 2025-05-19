@@ -10,6 +10,8 @@ namespace Proyecto_POO.Data
         public DbSet<Person> Persons { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Ubicacion> Ubicaciones { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -44,6 +46,16 @@ namespace Proyecto_POO.Data
                 .WithMany(p => p.Ubicacions)
                 .HasForeignKey(u => u.Idpersona)
                 .OnDelete(DeleteBehavior.Cascade);
+            //More eficient queries and research
+            modelBuilder.Entity<RefreshToken>()
+                .HasIndex(rt => rt.Token)
+                .IsUnique(); // Token should be unique
+
+            modelBuilder.Entity<RefreshToken>()
+                .HasIndex(rt => new { rt.IsRevoked, rt.Expires });
+            //Acelerate the search
+
+
         }
 
 

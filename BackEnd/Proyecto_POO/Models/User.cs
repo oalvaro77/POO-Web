@@ -12,5 +12,8 @@ namespace Proyecto_POO.Models
         [JsonIgnore]
         public  Person Person { get; set; }
 
+        public IEnumerable<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken> ();
+
+
     }
 }

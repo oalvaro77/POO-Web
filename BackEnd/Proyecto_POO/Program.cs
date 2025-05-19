@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using Proyecto_POO.Data;
+using Proyecto_POO.HostedServices;
 using Proyecto_POO.Repositories;
 using Proyecto_POO.Repositories.Interfaces;
 using Proyecto_POO.Services;
@@ -106,6 +107,14 @@ builder.Services.AddScoped<IUbicacionServices, UbicacionServices>();
 builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 builder.Services.AddScoped<IUbicacionRepository, UbicacionRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IREfreshTokenRepository, RefreshTokenRepository>();
+builder.Services.AddHostedService<CleanupRefreshTokenService>();
+
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetConnectionString("Redis");
+    options.InstanceName = "RefreshTokenCache_";
+});
 
 builder.Services.AddCors(options =>
 {
